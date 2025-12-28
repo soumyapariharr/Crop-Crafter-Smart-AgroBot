@@ -29,7 +29,7 @@ The system follows a structured workflow:
 5. Execute irrigation, obstacle avoidance, or robotic arm tasks
 6. Report status via mobile application
 
-![Algorithm Flowchart](diagrams/algorithm_flowchart.png)
+![Algorithm Flowchart](diagrams/algorithm_flowchart.jpg)
 
 ## Machine Learning Integration
 Object detection is implemented using Edge Impulse with a MobileNetV2 FOMO model deployed on ESP32-CAM. The model identifies crops and objects and provides location coordinates for robotic arm control.
@@ -64,3 +64,4 @@ An Android application developed using MIT App Inventor allows:
 - Cloud data logging
 - Improved ML model accuracy
 - Weather-based irrigation scheduling
+
