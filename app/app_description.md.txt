@@ -1,0 +1,19 @@
+# Crop Crafter Mobile Application
+
+The Crop Crafter Android application acts as the control and monitoring interface for the smart agriculture robot.
+
+## Features
+- Real-time monitoring of soil moisture, temperature, and humidity
+- Manual irrigation control using HTTP requests
+- Robotic arm control through slider-based servo actuation
+- Display of object detection results including object name and coordinates
+- Wireless communication with ESP8266 microcontroller
+
+## Implementation
+- Developed using MIT App Inventor
+- Uses Web components to send HTTP GET requests
+- Dynamic URL generation based on IP address input
+- Event-driven logic for sensor data retrieval and actuator control
+
+## Purpose
+The application enables farmers or operators to interact with the agrobot in real time, providing both automation support and manual override capabilities.
